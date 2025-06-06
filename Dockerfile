@@ -20,4 +20,4 @@ COPY . /workspace
 RUN pip install --no-cache-dir -r requirements.txt
 RUN pip install insightface onnxruntime-gpu
 
-CMD ["python", "rp_handler.py"]
+CMD ["python3", "rp_handler.py"]
